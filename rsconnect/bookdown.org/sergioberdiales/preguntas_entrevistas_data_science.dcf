@@ -5,8 +5,8 @@ account: sergioberdiales
 server: bookdown.org
 hostUrl: https://bookdown.org/__api__
 appId: 2626
-bundleId: 10366
+bundleId: 10374
 url: https://bookdown.org/sergioberdiales/preguntas_entrevistas_data_science/
-when: 1559126782.53753
+when: 1559150674.71674
 asMultiple: FALSE
 asStatic: TRUE

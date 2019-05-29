@@ -1,7 +1,74 @@
 # Preguntas y respuestas - Entrevistas para posiciones de Data Scientist
 
+```{r}
+library(ggplot2)
+```
+
 En este apartado voy a ir tratando de responder a las distintas preguntas que voy recopilando en esta
-[Google sheet](https://docs.google.com/spreadsheets/d/1iv4XTzMHxb4lKtmXaacn_QdjA_ZTBzi_tS_LXZWzIgA/edit?usp=sharing)
+[Google sheet](https://docs.google.com/spreadsheets/d/1iv4XTzMHxb4lKtmXaacn_QdjA_ZTBzi_tS_LXZWzIgA/edit?usp=sharing). 
+
+Las distintas preguntas las he ido dividiendo en temas y subtemas ('Modeling', 'Statistics', 'Programming', etc.). Obviamente muchas veces los límites entre estos no están claros y una pregunta puede perfectamente pertenecer a dos o tres temáticas al mismo tiempo. 
+
+Mi objetivo es responder de forma sencilla y breve a las preguntas planteadas. Y siempre que sea posible asociar la respuesta teórica a un ejemplo práctico para que el entrevistador perciba que además de conocer los fundamentos teóricos somos capaces de relacionar estos con casos reales de uso. 
+
+Para más detalle dejaré referencias en cada una de las respuestas donde podremos profundizar en cada uno de los temas planteados.
+
+## Estadística
+
+__¿Qué es el Teorema Central del Límite y por qué es tan importante?__
+
+Si una muestra consta de al menos 30 observaciones independientes y sus datos no están fuertemente sesgados, podremos entonces concluir que la distribución de la media muestral puede aproximarse correctamente a través de una normal. 
+
+__¿Qué es el p-value (o p-valor)?__
+
+El P-valor es utilizado para el contraste de hipótesis. En un contraste de hipótesis rechazaremos la hipótesis nula si el p-valor es menor que el nivel de significancia, $\alpha$, que suele fijarse en 0,05. Si el p-valor es igual o mayor no podremos rechazar la hipótesis nula $H_0$. 
+
+El P-valor se podría definir como la probabilidad, asumiendo la hipótesis nula como cierta (no existen diferencias), de obtener un resultado igual o más extremo que el realmente observado. La P viene de probabilidad y mide cómo de probable es que las diferencias observadas entre los grupos son debidas al azar. 
+
+__¿Qué es la desviación típica?__
+
+
+
+__Definición de correlación.__
+
+La correlación describe la fuerza de la relación lineal existente entre dos variables y toma valores entre -1 y 1. Se denota como R.  
+Si la correlación es fuerte y positiva tomará valores cercanos a +1, si es fuerte pero negativa estará próxima a -1.  
+Solamente cuando la relación entre las variables es perfectamente lineal tendremos valores de correlación iguales a +1 o -1. Por ello es conveniente ser siempre prudente al interpretar el nivel de correlación entre dos variables (así como los resultados de otros estadísticos descriptivos). 
+
+Sobre las limitaciones del índice de correlación y otros estadísticos a la hora de interpretar conjuntos de datos es realmente interesante esta publicación: ["Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats]).
+
+Antes de confiar en los principales estadísticos de una distribución hay que echar un vistazo a la distribución en sí.
+
+Y este sitio para jugar un poco a adivinar la correlación entre dos variables es genial [Guess the correlation](http://guessthecorrelation.com/).
+
+
+__¿Qué es el coeficiente de correlación o R cuadrado?__  
+
+## Creación de modelos
+
+__¿Qué es el Machine Learning (o Aprendizaje Automático)__  
+
+__Diferencias entre el aprendizaje supervisado y no supervisado.__  
+
+__¿En qué se diferencian los algoritmos K-vecinos (k-NN) y K-medias (K-means)?__
+
+__Al analizar un conjunto de datos ¿cómo tratarías los valores faltantes?__
+
+__¿Para qué utilizarías un algoritmo de clustering? ¿Qué aplicaciones prácticas tiene?__ 
+
+
+
+
+
+## Programación
+
+## Gestión de proyectos
+
+## Experiencia
+
+## Personales
+
+
 
 
 
