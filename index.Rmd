@@ -1,0 +1,21 @@
+---
+title: "Preguntas entrevistas Data Science"
+author: "Sergio Berdiales"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  #bookdown::pdf_book: default
+---
+
+# Introducción {-}
+
+En estas notas trato de responder a diferentes preguntas que un candidato para una posición de Data Scientist se puede encontrar en una entrevista. Muchas de las preguntas vienen directamente de artículos sobre este tema específico, otras de mi experiencia personal y otras de aportaciones de otras personas. 
+
+Aquí enlazo una [Google sheet](https://docs.google.com/spreadsheets/d/1iv4XTzMHxb4lKtmXaacn_QdjA_ZTBzi_tS_LXZWzIgA/edit?usp=sharing) con las preguntas que voy recopilando. Si tienes alguna pregunta interesante y quieres añadirla al listado, adelante. De momento todas las preguntas están en inglés porque no he encontrado ningún artículo en castellano al nivel de los que he consultado en inglés (enlaces en las referencias). 
+
+Este es el repositorio en github: https://github.com/sergioberdiales/Preguntas_Entrevistas_Data_Science. 
+
+Puedes enviarme sugerencias para mejorar esta guía vía twitter [twitter.com/SergioBerdiales](https://twitter.com/SergioBerdiales)
+
+  
